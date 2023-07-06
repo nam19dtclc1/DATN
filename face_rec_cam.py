@@ -31,7 +31,7 @@ def main():
     parser.add_argument('--path', help='Path of the video you want to test on.', default=0)
     args = parser.parse_args()
 
-    MINSIZE = 100
+    MINSIZE = 60
     THRESHOLD = [0.7, 0.7, 0.7]
     FACTOR = 0.709
     IMAGE_SIZE = 182
